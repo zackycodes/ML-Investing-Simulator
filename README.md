@@ -1,5 +1,5 @@
-# 📈 DL Investing Market
-Simulation & Predictive Analysis FrameworkWelcome to DLInvesting,
+# 📈 ML Investing Market
+Simulation & Predictive Analysis FrameworkWelcome to MLInvesting,
 a Python-based sandbox designed to simulate market volatility and evaluate the efficacy of Machine Learning in trading strategies. The core of this project lies in dlinvesting.py, which pits a standard "buy-and-hold" logic against a LinearRegression model to see who comes out on top.
 
 ## 🚀 Key Features
@@ -10,7 +10,7 @@ Dynamic Market Engine: Simulates stochastic price movements using a configurable
 * __Comprehensive Reporting__: Detailed daily logs and a final summary of total investment vs. accumulated profit. 
 
 ## 🛠️ Technical Architecture
-### The logic within dlinvesting.py is broken down into four primary classes:
+### The logic within dllinvesting.py is broken down into four primary classes:
 * __Market__: The environment. It generates the "noise" (fluctuations) that the investors must navigate.  
 * __Investor__: The base logic. Manages the wallet, tracks investment history, and calculates P&L based on margins and loss limits.  
 * __MachineLearningInvestor__: The "brains." Extends the base investor by adding a LinearRegression model to predict market direction.  
