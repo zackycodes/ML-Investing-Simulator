@@ -117,6 +117,7 @@ if __name__ == "__main__":
 
     # Investor with model
     training_days = 1000
-    ml_investor = MachineLearningInvestor(
-        investment
-        )
+    try:
+        ml_investor = MachineLearningInvestor(investment)
+    except NameError:
+        print()
