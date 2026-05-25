@@ -1,0 +1,7 @@
+# Version 1
+- Built base infrastructure
+- Built training model
+
+# Version 2
+- Fixed loss so we actually get money
+- Fixed random investing stopping bug
